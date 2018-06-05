@@ -1,8 +1,9 @@
 #include "core.h"
+using namespace core;
 #include "application.h"
 
 
-namespace core {
+namespace app {
 
 //--------------------------------------------------------------------------------------------------
 //----------          class Application          ---------------------------------------------------

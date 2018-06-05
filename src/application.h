@@ -1,6 +1,6 @@
 #pragma once
 
-namespace core {
+namespace app {
 
 class Application : public Object {
 public:
