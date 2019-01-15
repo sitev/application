@@ -1,5 +1,8 @@
 #pragma once
 
+#include "logger.h"
+using namespace logger;
+
 namespace app {
 
 class Application : public Object {
@@ -7,7 +10,7 @@ public:
 	List *lstCanvas;
 	List lstTimer;
 
-	//Logger *logger;
+	Logger *logger;
 
 	mutex g_mutex;
 	mutex mutexLogger;

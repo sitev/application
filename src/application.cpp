@@ -13,7 +13,7 @@ Application *application;
 
 Application::Application() {
 	application = this;
-	//logger = NULL;
+	logger = NULL;
 	isRunning = false;
 }
 Application::~Application() {
